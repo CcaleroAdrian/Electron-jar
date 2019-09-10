@@ -1,8 +1,10 @@
 # Electron-jar
 Proyecto realizado con ElectronJS para ejecutar archivos .Jar
 
-1.- Ejecutar el comando npm install  #para instalar todas las dependencias del proyecto
-2.- En el archivo ./src/renderer/index.js => cambiar la ruta del archivo Jar en el metodo RunScriptEvent()
+<ul>
+  <li>1.- Ejecutar el comando npm install  #para instalar todas las dependencias del proyecto</li>
+  <li>2.- En el archivo ./src/renderer/index.js => cambiar la ruta del archivo Jar en el metodo RunScriptEvent()</li>
+</ul>
 
-Para configuraciones de HTML se utilizo las librerias CSS de Photon:
-link: http://photonkit.com/
+<p>Para configuraciones de HTML se utilizo las librerias CSS de Photon:</p>
+<strong>link:</strong><a href='http://photonkit.com/'>Photon</a>
