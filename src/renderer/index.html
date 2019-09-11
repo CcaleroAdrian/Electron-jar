@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/photon.min.css">
+    <link rel="stylesheet" href="../assets/css/custom.css">
+    <script src="./index.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+    <div class="window">
+      <!-- Sección Titulo de ventana -->
+      <header class="toolbar toolbar-header">
+          <h1 class="title">Lanzador de Scripts Mobile</h1>
+      </header>
+      <!-- Termina Sección Titulo de ventana -->
+
+      <!-- Body de nuestra aplicacion Menu Lateral/ Contenedor Principal -->
+      <div class="window-content">
+        <div class="pane-group">
+          <!-- Seccion de Menú Lateral -->
+          <div class="pane-sm sidebar">
+            <nav class="nav-group">
+              <h5 class="nav-group-title">Menú</h5>
+              <a class="nav-group-item active">
+                <span class="icon icon-home"></span>
+                Lista de Scripts
+              </a>
+              <span class="nav-group-item">
+                <span class="icon icon-download"></span>
+                Otra opcion...
+              </span>
+              <span class="nav-group-item">
+                <span class="icon icon-folder"></span>
+                Otra opcion...
+              </span>
+              <span class="nav-group-item">
+                <span class="icon icon-signal"></span>
+                Otra opcion...
+              </span>
+              <span class="nav-group-item">
+                <span class="icon icon-print"></span>
+                Otra opcion...
+              </span>
+              <span class="nav-group-item">
+                <span class="icon icon-cloud"></span>
+                Otra opcion...
+              </span>
+            </nav>
+          </div>
+          <!-- Termina Seccion de Menú Lateral-->
+
+          <!-- Inicia Sección Princial -->
+          <div class="pane">
+            <div class="toolbar-actions custom_path">
+              <input id="edit_path" class="form-control" type="text" disabled placeholder="Ruta de archivos Jar...">
+              <button id="btnFileExplorer" class="btn btn-default">
+                <span class="icon icon-folder"></span>
+              </button>
+            </div>
+            <table class="table-striped"  style="margin: 0 2em 0 2em;">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>NOMBRE</th>
+                  <th>ACCIÓN</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>HolaMundo.jar</td>
+                  <td>
+                    <button id="btnRunScript" class="btn btn-positive">
+                      <span class="icon icon-play"></span>
+                      Run
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <!-- Termina la sección Principal -->
+        </div>
+      </div>
+      <!-- Termina Body de nuestra aplicacion -->
+
+      <!-- Footer de nuestra aplicacion -->
+      <footer class="toolbar toolbar-footer">
+          <h1 class="title">Demo @copyright 2019</h1>
+      </footer>
+      <!-- Termina Footer -->
+    </div>
+</body>
+</html>
